@@ -1,0 +1,214 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+ border: 0.2rem solid blue;
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    padding: 2px;
+    border: 3px solid green;
+  border-radius: 40px;
+}
+.Main_Upper_layout{
+    background-color: wheat;
+    position:sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.h_r{
+    position: sticky;
+    top: 70px;
+}
+.navigation{
+    
+    padding-top: 23px;
+ text-align: end;
+    flex-grow: 2;
+    
+ 
+
+}
+.navigation>a{
+    margin: 3px;
+    border: 1px solid rgb(12, 2, 2);
+   background-color: blue;
+   color: white;
+    font-size:100%;
+    padding: 5px;
+    contain: content;
+    border-radius: 10px;
+
+}
+.main_img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 540px;
+    width: 100%;
+    background-image: url("../images/pexels-oleg-magni-1005638.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit:cover;
+}
+
+.main_img_buttons{
+    text-align: center;
+    width: 100%;
+
+}
+.main_img_buttons>a{
+    padding: 5px;
+    border-radius: 20px;
+    background-color:rgb(183, 236, 232);
+    border: 1px solid black;
+    font-size: 1.5rem;
+}
+.text{
+    font-size: 20px;
+    width: 100%;
+    background-image: url("../images/pexels-emirkhan-bal-953862.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100%;
+    object-fit:cover;
+}
+
+
+.images{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+
+}
+.img_tile{
+    margin-left: 10px;
+    margin-right: 10px;
+    height:200px;
+    object-fit: cover;
+
+}
+.image_of_tile{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.feedback_upperpart{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.customers{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.customers>div{
+    width: 155px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid burlywood;
+}
+.go_to_top{
+    text-align: end;
+
+}
+.go_to_top_button{
+    position:fixed;
+   bottom: 5px;
+   right: 10px;
+    font-size: 1.5rem;
+    border:2px solid black;
+    padding: 3px;
+    background-color: rgb(123, 226, 6);
+    
+  border-radius: 10px;
+}
+#contact{
+  
+background-color: rgb(247, 245, 243);
+}
+
+.footer_upperpart>div{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer_upperpart>form{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.submit_button{
+    font-size: 1.5rem;
+    border:1 px solid green;
+     font-family:cursive;
+    background-color: rgb(123, 226, 6);
+  color:rgb(65, 5, 62);
+  border-radius: 10px;
+}
+.footer_lowerpart{
+    text-align: center;
+}
+.footer_lowerpart>a{
+    padding: 10px;
+}
+.pair{
+    margin-bottom: 10px;
+}
+@media (max-width:768px){
+    .text{
+        font-size: 12px;
+    }
+    .feedback_upperpart{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .customers>div{
+        width:30%;
+        border: 3px solid burlywood;
+    }
+    .go_to_top_button{
+       right: 5px;
+       bottom: 5px;
+        font-size: 0.7rem;
+      border-radius: 5px;
+    }
+    .footer_upperpart>div{
+        font-size: 0.7rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .footer_upperpart>form{
+        font-size: 0.7rem;
+    }
+    .submit_button{
+        font-size: 0.7rem;
+      border-radius: 5px;
+    }
+    .footer_lowerpart>a{
+        padding: 5px;
+    }
+    
+    .pair{
+        margin-bottom: 5px;
+    }
+}
