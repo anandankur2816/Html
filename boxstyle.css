@@ -12,7 +12,6 @@ body{
    height: 600px;
     display: flex;
    flex-direction: row;
-   
 }
 
 .box{
@@ -110,6 +109,10 @@ a{
     bottom: 0px;
     right: 0px;
 
+}
+.text{
+    text-align: center;
+    color: blue;
 }
 .bottom_button{
     border-radius: 10px;
