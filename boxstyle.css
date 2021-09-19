@@ -166,6 +166,10 @@ a{
       
         width: 100%;
     }
+    .c{
+        padding:1em;
+        padding-right:2em ;
+    }
     
     .second,.third{
         width: 43%;
