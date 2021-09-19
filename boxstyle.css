@@ -22,8 +22,8 @@ body{
 }
 .a{ 
     display: flex;
-    flex-direction: column;
-   padding: 1em;
+    flex-direction: row;
+  flex-wrap: wrap;
 }
 .b{ text-align: center;
     display: flex;
@@ -39,10 +39,8 @@ body{
 }
 .a_upper{
     width: 100%;
-    height: 50%;
     display: flex;
     flex-direction: row;
-    margin-bottom: 0.25em;
 }
 .c_upper,.c_lower{
     height: 50%;
@@ -51,7 +49,7 @@ body{
     padding: 0.5em;
 }
 .inner{
-    margin: 0.5em;
+    margin: 1em;
     background-color: rgb(24, 212, 218); 
 }
 
@@ -63,7 +61,6 @@ body{
     height: 50%;
 }
 .b1{
-
     margin: 1em 5px 5px 1em;
 width: 50%;
 
@@ -72,7 +69,6 @@ width: 50%;
     margin: 1em 1rem 5px 5px;
     width: 50%;
 }
-
 .b1_1{
     margin:5px 5px 1rem 1rem;
 width: 50%;
@@ -147,6 +143,9 @@ a{
     .heading{
         font-size: 2rem;
     }
+    .a{
+        padding-bottom: 4em;
+    }
     .outerframe{
         
         flex-wrap: wrap;
@@ -159,6 +158,8 @@ a{
     .b{ 
      flex-direction: column;
      padding: 1em;
+     padding-top: 0.25em;
+     padding-bottom: 0.10em;
      padding-right: 2em;
     }
     .b4,.b5{
