@@ -1,5 +1,4 @@
 body{ 
-    border: 5px solid black;
    
     margin: 1px;
 }
@@ -23,47 +22,67 @@ body{
 }
 .a{ 
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+   padding: 1em;
 }
 .b{ text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 0.5em;
 }
 
 .c{
+    text-align: center;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 4.0em;
 }
 .a_upper{
     width: 100%;
+    height: 50%;
     display: flex;
     flex-direction: row;
+    margin-bottom: 0.25em;
 }
 .c_upper,.c_lower{
     height: 50%;
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    margin: 1em;
+    padding: 0.5em;
 }
 .inner{
-    margin: 1em;
+    margin: 0.5em;
     background-color: rgb(24, 212, 218); 
 }
+
 .b4,.b5{
-    width: 50%;
-    padding: 1rem;
+    height: 100%;
+}
+
+.b4,.b5{
+    height: 50%;
 }
 .b1{
-    margin-left: 0px;
+
+    margin: 1em 5px 5px 1em;
 width: 50%;
 
 }
 .b2{
-    margin-right: 0px;
+    margin: 1em 1rem 5px 5px;
     width: 50%;
 }
+
+.b1_1{
+    margin:5px 5px 1rem 1rem;
+width: 50%;
+
+}
+.b2_2{
+    margin: 5px 1rem 1rem 5px;
+    width: 50%;
+}
+
 .b3{
     width:100%;
 }
@@ -138,18 +157,15 @@ a{
         width: 100%;
     }
     .b{ 
-     flex-wrap: wrap;
-        
-       
+     flex-direction: column;
+     padding: 1em;
+     padding-right: 2em;
     }
     .b4,.b5{
       
         width: 100%;
     }
-    .b5{
-        padding-top: 5rem;
-    }
-
+    
     .second,.third{
         width: 43%;
     }
